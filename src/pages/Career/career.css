@@ -1,0 +1,259 @@
+/* General styling for the contact form container */
+
+
+/* Styling for contact info section */
+.contact-info {
+  width: 40%;
+  margin-top: 5%;
+  text-align: left;
+  padding-top: 10%;
+}
+
+.contact-info h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #000000;
+  text-align: center;
+}
+
+.contact-address {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.contact-address p span {
+  color: #00a859; /* Icon color */
+}
+
+/* Styling for the contact form */
+.contact-form {
+  width: 45%;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 5%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover transition */
+}
+
+/* Hover effect for contact form */
+.contact-form:hover {
+  transform: scale(1.02); /* Increases size by 2% */
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2); /* Enhance shadow */
+}
+
+/* Form heading */
+.contact-form h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+/* Input fields and textarea styling */
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd; /* Subtle border color */
+  border-radius: 5px;
+  font-size: 16px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+  transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth hover transition */
+}
+
+/* Hover effect for input fields */
+.contact-form input:hover,
+.contact-form textarea:hover {
+  border-color: #2e68b3; /* Change border color on hover */
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); /* Intensify shadow on hover */
+}
+
+/* Focus effect when input is active */
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none; /* Remove default focus outline */
+  border-color: #00a859; /* Green border color */
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); /* Same shadow effect as hover */
+}
+
+/* Input row layout */
+.contact-form .input-row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+.contact-form .input-row input {
+  width: 68%; /* Adjust for two inputs in a row */
+}
+
+/* Textarea styling */
+.contact-form textarea {
+  height: 100px;
+  resize: none;
+}
+
+/* Captcha container */
+.captcha-container123 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.captcha-container123 input[type="checkbox"] {
+  max-width: 20px;
+}
+
+/* Submit button styling */
+.contact-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #32459b;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #6592ac;
+}
+
+label {
+  color: #000000;
+}
+
+/* Contact card (info section) */
+.contact-card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin-top: 5%;
+  font-family: 'Arial', sans-serif;
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for contact card */
+.contact-card:hover {
+  transform: scale(1.01); /* Slight size increase */
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15); /* Slight shadow increase */
+}
+
+/* Contact card heading */
+.contact-card h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #000000;
+}
+
+/* Paragraph styling in the card */
+.contact-card p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.contact-details {
+  margin-top: 20px;
+}
+
+/* Contact items (phone, email, etc.) */
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Icon and hover effects */
+.contact-item .icon {
+  font-size: 20px;
+  margin-right: 10px;
+  color: #004ea8;
+  transition: transform 0.3s ease, font-size 0.3s ease;
+}
+
+.contact-item a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease, font-size 0.3s ease;
+}
+
+.contact-item a:hover, 
+.contact-item .icon:hover {
+  color: #255397; /* Hover color */
+  font-size: 17px; /* Slight size increase */
+  transform: scale(1.05); /* Slight size scaling */
+}
+
+/* Responsive design for tablets */
+@media screen and (max-width: 1024px) {
+  .contact-info, .contact-form {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .contact-form .input-row input {
+    width: 100%; /* Stack inputs vertically */
+    margin-bottom: 15px;
+  }
+}
+
+/* Responsive design for mobile phones */
+@media screen and (max-width: 768px) {
+  .contact-containerfrm {
+    flex-direction: column;
+    padding: 5% 5%;
+    padding-top: 100px;
+  }
+
+  .contact-info, .contact-form {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .contact-form .input-row input {
+    width: 100%; /* Stack inputs vertically */
+    margin-bottom: 15px;
+  }
+}
+
+
+.social-iconw {
+  font-size: 24px;             
+  color: #255397; 
+  padding-right: 10px;                 
+  transition: color 0.3s;       
+}
+
+
+.social-iconw:hover {
+  color: #98c4ee;           
+}
+
+
+/* General styling for the contact form container */
+.contact-containerfrm {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 5% 10%; /* Adjusted padding for better scaling */
+  margin: 0 auto;
+  font-family: 'Arial', sans-serif;
+  background-color: #f7f7f7;
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
+  
+  /* Add background image */
+  background-image: url('./assets/backweb.jpeg'); /* Path to your background image */
+  background-size: cover; /* Cover ensures the image covers the entire container */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents image repetition */
+  background-attachment: fixed; /* Keeps the background fixed during scroll */
+}

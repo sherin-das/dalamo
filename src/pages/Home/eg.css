@@ -1,0 +1,54 @@
+.carousel-image-container {
+  position: relative;
+  width: 100%;
+  height: 50vh; /* Make the height 50% of the viewport height for responsiveness */
+  max-height: 600px; /* Set a max height for larger screens */
+  overflow: hidden; /* Ensures the image does not overflow the container */
+}
+
+.carousel-image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the entire container without distortion */
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+  .carousel-image-container {
+    height: 40vh; /* Reduce the height on smaller screens */
+    max-height: 400px;
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel-image-container {
+    height: 30vh; /* Further reduce height for very small screens */
+    max-height: 300px;
+  }
+}
+
+  
+  .carousel-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4); /* Dark overlay for readability */
+  }
+  
+  .overlay h3 {
+    color: white;
+    font-size: 24px;
+    font-family: 'Helvetica', sans-serif;
+  }
+  

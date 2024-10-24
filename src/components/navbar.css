@@ -1,0 +1,73 @@
+/* Logo image styling */
+.logoimage {
+  width: 160px;
+}
+
+/* Navigation link styling */
+.navbar-nav .nav-link {
+  font-size: 16px;
+  margin: 5px 15px;
+  color: white; /* Default text color for the links */
+  text-decoration: none;
+  background: #4365af; /* Default background color */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+@media (min-width: 992px) {
+  .navbar-nav .nav-link {
+    margin: 0 20px;
+  }
+}
+
+/* Navbar container styling */
+.navbar {
+  padding: 10px 0;
+  position: fixed;
+  background-color: #ffffff; /* White background for the navbar */
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  border-bottom: 2px solid #ffffff; 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Navbar toggler styling for mobile */
+.navbar-toggler {
+  border-color: #4365af; /* Blue border for the toggler */
+}
+
+.navbar-toggler-icon {
+  background-color: #4365af; /* Blue toggler icon */
+}
+
+/* Regular navigation links */
+.nav-link {
+  padding: 10px 15px;
+  color: #4365af; /* Default color */
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s, transform 0.2s;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  background-color: #edecf3; /* Hover background color */
+  color: #0d1880; /* Hover text color */
+}
+
+/* Active state styling */
+.nav-link.active {
+  background-color: #1c4db8; /* Active background color */
+  color: #ffffff; /* Active text color */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 991px) {
+  .navbar-collapse {
+    background-color: #ffffff; /* White background for expanded menu */
+  }
+}
+
+

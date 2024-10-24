@@ -1,0 +1,342 @@
+.n9-text-background-container {
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #f9f9f9;
+  text-align: center;
+  padding: 20px;
+  background-size: cover;
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden; /* Ensure the overlay doesn't exceed bounds */
+}
+
+
+
+
+.job-offers-containerc carc{
+   background-color: #f9f9f9;
+}
+
+.n9-text-background-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://wallpapers.com/images/hd/4k-tech-1eweq7h47kehxd7y.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.9; /* Adjust the transparency level (0.0 to 1.0) */
+  z-index: 1; /* Ensure the image stays behind the text */
+}
+
+.n9-background-text {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+.n9-background-paragraph {
+  font-size: 18px;
+  margin-top: 20px;
+  max-width: 1300px;
+  text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.5);
+  z-index: 5;
+  color: #ddd;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .n9-text-background-container {
+    height: 200px;
+    
+  }
+
+  .n9-background-text {
+    font-size: 24px;
+  }
+
+  .n9-background-paragraph {
+    font-size: 14px;
+  }
+}
+
+
+.n9-background-text {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .n9-text-background-container {
+    padding: 150px 20px;
+    height: auto;
+  }
+
+  .n9-background-text {
+    font-size: 24px;
+  }
+
+  .n9-background-paragraph {
+    font-size: 14px;
+  }
+}
+
+/* styles.css */
+.job-cardc {
+  background-color: #4b1c1c; /* White background for card */
+  border: 1px solid #dcdcdc; /* Light gray border */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px; /* Padding inside the card */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  margin: 15px; /* Margin around each card */
+  transition: transform 0.2s; /* Smooth transition for hover effect */
+}
+
+.job-cardc:hover {
+  transform: scale(1.02); /* Slightly scale up on hover */
+}
+
+.job-detailsc {
+  display: flex; /* Flex layout for the job details */
+  justify-content: space-between; /* Space between items */
+  margin-top: 10px; /* Margin above the details section */
+  color: #666; /* Gray color for the text */
+  font-size: 0.9rem; /* Slightly smaller font size */
+}
+
+.carca{
+  background-color: #f9f9f9;
+}
+
+
+.bfg{
+  background-color:  #f9f9f9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+  }
+  .job-offers-containerc {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .job-sectionc {
+    flex: 2;
+    
+  }
+  .pt{
+    background-color: rgb(168, 69, 69);
+    .join {
+      font-size: 1.2em;
+      margin-bottom: 20px; 
+    }
+    
+    .us {
+      font-size: 1em;
+      line-height: 1.6;
+    }
+    
+  }
+  
+  .job-sectionc h1 {
+    font-size: 2rem;
+    color:  #10101f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .join {
+    font-size: 1.1rem;
+    color: #fffbfb;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+  }
+  .us {
+    font-size: 1.1rem;
+    color: #fffbfb;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+  }
+  
+  .job-cardc {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 6px rgba(5, 5, 5, 0.1);
+  }
+  
+  
+  
+  .h1ca1{
+    color: #3119bb;
+  }
+  .job-cardc h2 {
+    color:  #3119bb;
+    margin-bottom: 20px;
+  }
+  
+  .job-cardc p {
+    color:  #3119bb;
+    margin-bottom: 20px;
+  }
+  
+  .job-detailsc span {
+    display: block;
+    color: #4d7c8a;
+    margin-bottom: 5px;
+  }
+  
+  .about-sectionc {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .about-sectionc img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .about-sectionc h3 {
+    font-size: 1.5rem;
+    color: #6b5e62;
+  }
+  
+  .about-sectionc p {
+    color: #7d7d7d;
+    font-size: 1.1rem;
+  }
+  
+  @media (max-width: 768px) {
+    .job-offers-containerc {
+      flex-direction: column;
+    }
+  
+    .about-sectionc {
+      margin-top: 40px;
+    }
+  }
+  .carc{
+    padding-top: 10%;
+    background: #000;
+  }
+
+  .n9-mission-vision-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #f9f9f9;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .n9-mission-vision-image {
+    width: 40%;
+  }
+  
+  .n9-mission-vision-image img {
+    margin-top: 10px;
+
+    width: 90%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .n9-mission-vision-content {
+    width: 55%;
+    padding: 0 20px;
+    color: #333;
+  }
+  
+  .n9-mission-vision-content h2 {
+    font-size: 28px;
+    color: #32459b; /* Accent color */
+    margin-bottom: 10px;
+  }
+  
+  .n9-mission-vision-content p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  /* Responsive styles for mobile and smaller screens */
+  @media (max-width: 768px) {
+    .n9-mission-vision-container {
+      flex-direction: column;
+      text-align: center;
+      padding: 20px;
+    }
+  
+    .n9-mission-vision-image, .n9-mission-vision-content {
+      width: 100%;
+      padding: 0;
+    }
+  
+    .n9-mission-vision-content h2 {
+      font-size: 24px;
+    }
+  
+    .n9-mission-vision-content p {
+      font-size: 16px;
+    }
+  }
+  

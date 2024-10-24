@@ -1,0 +1,351 @@
+p{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.cor{
+  margin-top: 100px;
+  
+
+}
+.btn-transparent {
+  background-color: transparent;
+ /* White border (you can change the color) */
+  color: rgb(177, 186, 199); /* White text (can be adjusted) */
+  padding: 10px 20px;
+
+  font-family: 'Helvetica', sans-serif; /* Clean typography */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effect */
+}
+
+.btnh{
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+.bth{
+  padding: 0.5rem;
+  background-color: #e6ebf7;
+  border: none;
+  transition: 0.2s;
+  margin: 0.5rem;
+  color:  #4365af;
+  border-radius: 5px;
+}
+
+
+.bth:hover{
+  background-color: #4365af;  /* Blue background on hover */
+  color: #ffffff;             /* White text on hover */
+  transform: translateY(-2px); /* Slight lift effect */
+}
+
+.bth:active{
+  background-color: #4365af;  /* Darker blue for active state */
+  color: #ffffff;
+}
+.bth:after{
+  content: '';                 /* Placeholder for potential icon */
+  margin-left: 8px;           /* Space between text and icon */
+  font-size: 12px;  
+}
+
+
+.btn-transparent:hover {
+  background-color: rgba(255, 255, 255, 0.1); /* Slight white background on hover */
+  color:  rgb(255, 255, 255); /* Ensure the text remains white */
+}
+.da-about-container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color:  rgb(255, 255, 255); /* Light background */
+  
+}
+
+.da-about-title {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  color: #333; /* Neutral color */
+  margin-bottom: 20px;
+}
+
+.da-about-content {
+  margin-top: 50px;
+  font-family: 'Arial', sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #0a0a0a;
+   /* Aligns text neatly */
+}
+
+.da-about-content p {
+  margin-bottom: 15px;
+  color: #0a0a0a;
+  padding-left: 18%;
+  padding-right: 18%;
+  display: flex ;
+  justify-content: left;
+}
+
+.learn-more-btn {
+  background-color: #32459b; /* Button background */
+  border: none;
+  margin-left: 70%;
+  padding: 10px 25px; /* Adjust padding for button size */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+  display: inline-flex; /* Align link and arrow */
+  align-items: center; /* Vertical center alignment */
+}
+
+.learn-more-btn:hover {
+  background-color: #2e68b3; /* Lighter blue on hover */
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+.lmm {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff; /* White text */
+  text-decoration: none; /* No underline for link */
+  display: inline-block;
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.arrow {
+  margin-left: 8px; /* Space between link and arrow */
+  color: #ffffff; /* Arrow color */
+  font-size: 18px;
+  transition: margin-left 0.3s ease, color 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.learn-more-btn:hover .arrow {
+  margin-left: 12px; /* Move arrow slightly on hover */
+}
+
+.learn-more-btn:hover .lmm {
+  color: #ffffff; /* Ensure text stays white on hover */
+}
+
+
+
+.cdtthm{
+  color: #ff6600;
+}
+
+
+.container1s {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-right: 0%;
+  background-color: #ffffff;
+  padding-left: 7%;
+  padding-bottom: 2%;
+}
+
+.cardhhd{
+  display: flex;
+  justify-content: space-between;
+  
+  
+}
+
+.cdtthmd{
+  text-align: center;
+  color: #4365af;
+}
+.colck{
+  color: black;
+  text-align: justify;
+}
+
+.cardh{
+  display: flex;
+  margin-left: 6%;
+  margin-right: 5%;
+  background-color: #ffffff;
+
+}
+
+.cardbgd{
+  background-color:   #fcfcfc;
+  padding: 5%;
+  
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  
+}
+
+
+
+
+.cardbgd:hover{
+  transform: scale(1.1);
+ 
+}
+
+.cdtthm{
+  color: #ff6600;
+}
+
+
+@media screen and (max-width: 768px) {
+  .da-about-container {
+    padding: 15px;
+  }
+
+  .da-about-title {
+    font-size: 28px;
+  }
+
+  .da-about-content {
+    font-size: 16px;
+  }
+}
+
+
+
+ /*why */
+
+
+ .mmm {
+  background-color: rgb(255, 255, 255);
+}
+
+.prodback1 {
+  z-index: -1; 
+  object-fit: cover; 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+.mgq{
+  padding-top: 30px;
+  background-color: #ffffff;
+}
+
+.t{
+  color: aqua;
+  margin-bottom: 2%;
+}
+
+
+
+.maindiv2 {
+  height: auto;
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 20px; 
+  padding-left: 10%;
+  padding-right: 10%;
+
+  flex-direction: row; 
+  flex-wrap: wrap; 
+}
+.maindiv3 {
+  height: auto;
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 20px; 
+  padding-left: 10%;
+  padding-right: 10%;
+
+  flex-direction: row; 
+  flex-wrap: wrap; 
+}
+
+.content {
+  flex: 1; 
+  padding-right: 20px;
+align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+   
+}
+
+.image-container {
+  flex: 0 0 30%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+p{
+  color: #000000;
+}
+
+.image-container img {
+  max-width: 90%; 
+  height: auto; 
+}
+
+@media (max-width: 768px) {
+  .maindiv, .maindiv1 {
+      flex-direction: column; 
+      align-items: center; 
+      text-align: center; 
+  }
+
+  .image-container {
+      flex: 1 0 100%; 
+      margin-bottom: 20px; 
+  }
+
+  .content {
+      flex: 1 0 100%;
+      padding-right: 0; 
+  }
+}
+.shera {
+  text-align: center;
+  color: black;
+  font-family: 'Arial', sans-serif; 
+  font-size: 30px; 
+  font-weight: bold; 
+  letter-spacing: 1.5px; 
+  line-height: 1.5; 
+  padding: 20px; 
+  margin: 20px auto; 
+  max-width: 600px; 
+  border-radius: 10px; 
+  background-color: #ffffff; 
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05); 
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .shera {
+    font-size: 24px; /* Slightly reduce font size on smaller screens */
+    padding: 15px; /* Adjust padding to avoid overflow */
+    margin: 15px auto; /* Reduce margins for smaller screens */
+    max-width: 90%; /* Adjust width to fit smaller screens better */
+  }
+}
+
+@media (max-width: 480px) {
+  .shera {
+    font-size: 20px; /* Further reduce font size for mobile devices */
+    padding: 10px; /* Adjust padding for mobile */
+    margin: 10px auto; /* Reduce margin further for mobile */
+  }
+}
+
+
+
+
+
